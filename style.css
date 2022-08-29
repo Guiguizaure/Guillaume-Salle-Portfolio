@@ -1,0 +1,218 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif; 
+*/
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    background-color: rgb(76, 210, 49);
+}
+#header h1{
+    font-family: 'Oswald', sans-serif; 
+    font-size: 35px;
+    position: relative;
+    
+}
+.guillaume{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: 2px solid black;
+    padding: 0 5px;
+}
+.salle{
+    border: 2px solid black;
+    /* border-top-right-radius: 50%; */
+    padding: 0 5px;
+    
+}
+/* #header h1::after{
+    content: "";
+    position: absolute;
+    height: 63px;
+    width: 9px;
+    background-color: rgb(76, 213, 55);
+    right: 70px;
+    top: -14px;
+} */
+
+#header nav{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#header nav a{
+    margin-right: 60px;
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+    transition: 300ms ease-in-out;
+}
+#header nav a:hover{
+    color: white;
+}
+
+
+/* #project-container{
+    width: 100%;
+} */
+
+/* -------------- PROJECT CONTAINER STYLE -------------- */
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 224, 100);
+    padding-top: 30px;
+}
+.project-ohmyfood{
+    background-color: rgb(92, 157, 255);
+}
+
+/* -------------- PROJECT TITLE -------------- */
+.project h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+/* -------------- IMAGE -------------- */
+.project-image{
+    background-image: cover;
+    background-position: center;
+}
+.project-image img{
+    width: 750px;
+    height: 480px;
+    object-fit: cover;
+}
+.project-image-ohmyfood{
+    background-image: cover;
+    background-position: center;
+    display: flex;
+}
+.project-image-ohmyfood img{
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* -------------- OUTLINK -------------- */
+.outlink{
+    padding: 20px;
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.outlink a{
+    text-decoration: none;
+    color: black;
+}
+.outlink i{
+    font-size: 25px;
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+.outlink i:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.text-animation{
+    position: relative;
+    display: block;
+    /* overflow: hidden; */
+}
+.image-hover{
+    opacity: 1;
+    transition: 400ms ease-in-out;
+    cursor: pointer;
+}
+.image-hover:hover{
+    opacity: 0.2;
+    box-shadow: 0 0 0 8px white;
+}
+.key-point-container{
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(48, 43, 43, 0.8);
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 400ms ease-in-out;
+    opacity: 0;
+}
+.text-animation:hover .key-point-container{
+    opacity: 1;
+}
+.key-point-container:hover{
+    background-color: rgba(48, 43, 43, 1);
+}
+.key-point-container h3{
+    font-family: 'Oswald', sans-serif; 
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+.html{
+    color: tomato;
+    font-size: 25px;
+    margin-left: 80px;
+}
+.css{
+    color: rgb(71, 145, 255);
+    font-size: 25px;
+    margin-left: 10px;
+}
+.sass{
+    color: rgb(211, 74, 232);
+    font-size: 25px;
+    margin-left: 10px;
+}
+.key-point-container ul{
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.key-point-container ul li{
+    padding: 10px 15px;
+    font-weight: 400;
+    border-top: 1px white solid;
+    border-bottom: 1px white solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+.key-point-container ul li:hover{
+    background-color: rgb(228, 228, 228);
+    color: black;
+}
+.key-point-container ul i{
+    margin-right: 5px;
+    font-size: 20px;
+}   
+.fa-mobile-button{
+    margin-left: 1px;
+}
+.fa-exclamation{
+    margin-left: 6px;
+    margin-right: 10px;
+}
