@@ -1,0 +1,25 @@
+
+@media screen and (max-width: 767px){
+
+    /* ----------- HEADER ------------ */
+
+    /* ----------- NAV BAR ------------ */
+    /* #header nav{
+        
+        flex-direction: column;
+        
+    }
+    #header nav a{
+        margin-bottom: 20px;
+    } */
+
+    /* ----------- SECTION TITLE ------------ */
+    
+
+    /* ----------- ABOUT BOX ARTWORK ------------ */
+    .about-box-artwork-img{
+        flex-direction: column;
+    }
+
+    
+}
